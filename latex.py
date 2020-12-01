@@ -40,7 +40,7 @@ class Latex_Document(object):
 \\renewcommand{\labelenumii}{\\arabic{enumii}}
 \\renewcommand{\labelenumiii}{\\arabic{enumii}}
 
-\begin{document}
+\\begin{document}
         """
 
     def colontitul_base(self):

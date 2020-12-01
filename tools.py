@@ -11,7 +11,7 @@ def get_path():
     return path
 
 def get_text(path):
-    file = open(path, 'r')
+    file = open(path, 'r', encoding="utf8")
     text = file.readlines()
     file.close()
 
